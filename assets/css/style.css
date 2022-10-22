@@ -41,6 +41,7 @@ a {
     width: 100%;
     margin: 100px auto 0;
     margin-top: 20px;
+    margin-bottom: 200px;
     overflow: visible;
 }
 
@@ -59,7 +60,6 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    padding-top: 200px;
 }
 
 .cv-pdf i {
