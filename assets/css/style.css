@@ -14,11 +14,25 @@
     padding-top: 100px;
 }
 
-.my-logo-ball {
-    width: 100px;
-    margin-top: 10px;
-    animation: animated 9s linear infinite;
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
 
+.my-logo-font {
+    position: absolute;
+    margin-top: 115px;
+    align-items: center;
+    width: 160px;
+}
+
+.my-logo-ball {
+    position: absolute;
+    width: 100px;
+    align-items: center;
+    animation: animated 9s linear infinite;
 }
 
 @keyframes animated {
@@ -32,15 +46,10 @@
     }
 }
 
-.my-logo-font {
-    margin-top: 90px;
-    width: 160px;
-}
-
 .video-container {
     position: absolute;
     right: 0;
-    top: 44%;
+    top: 43%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -73,20 +82,18 @@ h1 {
     font-weight: 400;
     font-size: 26px;
     color: #fff;
-    margin-top: 10px;
-    padding-left: 8%;
-    text-align: center;
     top: 50%;
     transform: translateY(-50%);
     width: 90%;
+    left: 5%;
     letter-spacing: 0.1rem;
 }
 
 h1 span {
     opacity: 0;
     display: inline-block;
-    animation: animate 1.5s linear forwards;
-    margin-bottom: 0;
+    animation: animate 2s linear forwards;
+    margin-bottom: 0px;
 }
 
 @keyframes animate {
@@ -148,8 +155,8 @@ a {
     justify-content: center;
     width: 100%;
     margin: 100px auto 0;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 275px;
+    margin-bottom: 300px;
     overflow: visible;
 }
 
