@@ -16,7 +16,7 @@
 
 .my-logo-ball {
     width: 100px;
-    margin-top: 100px;
+    margin-top: 10px;
     animation: animated 9s linear infinite;
 
 }
@@ -33,7 +33,7 @@
 }
 
 .my-logo-font {
-    margin-top: 210px;
+    margin-top: 90px;
     width: 160px;
 }
 
@@ -52,7 +52,6 @@
 .video-container .video-box {
     height: 8rem;
     width: 20rem;
-    box-shadow: .6rem .6rem rgba(0, 0, 0, .6);
     overflow: visible;
 }
 
@@ -149,7 +148,7 @@ a {
     justify-content: center;
     width: 100%;
     margin: 100px auto 0;
-    margin-top: 20px;
+    margin-top: 100px;
     margin-bottom: 200px;
     overflow: visible;
 }
